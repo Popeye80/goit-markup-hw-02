@@ -11,8 +11,13 @@ body {
 }
 .logo {
 	text-decoration: none;
-
+	font-family: "Raleway";
 	color: #212121;
+	width: 145px;
+	height: 31px;
+	left: 215px;
+	top: 24px;
+	size: 26px;
 }
 .logo1 {
 	color: #2196f3;

@@ -7,7 +7,7 @@
     border-radius: 4px;*/
 /*лого #2196F3 Raleway*/
 body {
-	font-family: "Roboto";
+	font-family: "Roboto", "Raleway", sans-serif;
 	color: #212121;
 	background-color: #e5e5e5;
 }
@@ -17,10 +17,16 @@ body {
 	color: #212121;
 	width: 145px;
 	height: 31px;
-	left: 215px;
-	top: 24px;
-	size: 26px;
+	font-size: 26px;
+	line-height: 1.17;
+	font-weight: bold;
 }
 .logo1 {
 	color: #2196f3;
+}
+
+.navigation :hover,
+.navigation :focus {
+	color: #2196f3;
+	cursor: pointer;
 }

@@ -97,3 +97,6 @@ body {
 	line-height: 1.87;
 	font-weight: 400;
 }
+.list {
+	list-style: none;
+}

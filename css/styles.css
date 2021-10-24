@@ -1,7 +1,8 @@
 body {
-	font-family: "Roboto", "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: #212121;
 	background-color: #e5e5e5;
+	letter-spacing: 0.06em;
 }
 .logo {
 	text-decoration: none;
@@ -12,6 +13,7 @@ body {
 	font-size: 26px;
 	line-height: 1.17;
 	font-weight: bold;
+	letter-spacing: 0.03em;
 }
 .logo1 {
 	color: #2196f3;
@@ -19,10 +21,10 @@ body {
 
 .navigation :hover,
 .navigation :focus {
-	font-size: 14px;
+	/*font-size: 14px;*/
 	line-height: 1.14;
 	font-weight: 500;
-
+	letter-spacing: 0.02em;
 	color: #2196f3;
 	cursor: pointer;
 }
@@ -32,6 +34,7 @@ body {
 	font-size: 44px;
 	line-height: 1.36;
 	font-weight: 900;
+	letter-spacing: 0.06em;
 }
 
 .heading-button {
@@ -45,6 +48,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	font-weight: bold;
+	letter-spacing: 0.03em;
 }
 .company-advantages-text {
 	color: #757575;
@@ -67,10 +71,11 @@ body {
 }
 .footer {
 	background-color: #2f303a;
+	letter-spacing: 0.03em;
 }
 .footer-adress {
 	font-weight: 400;
-	font-size: 14px;
+	/*font-size: 14px;*/
 	line-height: 1.7;
 }
 .footer-adress-mobile {

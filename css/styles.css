@@ -12,7 +12,7 @@ body {
 	height: 31px;
 	font-size: 26px;
 	line-height: 1.17;
-	font-weight: bold;
+	font-weight: 700;
 	letter-spacing: 0.03em;
 }
 .logo1 {
@@ -47,18 +47,18 @@ body {
 .company-advantages {
 	font-size: 14px;
 	line-height: 1.14;
-	font-weight: bold;
+	font-weight: 700;
 	letter-spacing: 0.03em;
 }
 .company-advantages-text {
 	color: #757575;
 	line-height: 1.7;
-	font-weight: 400;
+	
 }
 .work {
 	font-size: 36px;
 	line-height: 1.17;
-	font-weight: bold;
+	font-weight: 700;
 }
 .work-command {
 	font-size: 16px;
@@ -66,7 +66,7 @@ body {
 	font-weight: 500;
 }
 .work-command-position {
-	font-weight: 400;
+	
 	color: #757575;
 }
 .footer {
@@ -74,8 +74,7 @@ body {
 	letter-spacing: 0.03em;
 }
 .footer-adress {
-	font-weight: 400;
-	/*font-size: 14px;*/
+	
 	line-height: 1.7;
 }
 .footer-adress-mobile {
@@ -89,13 +88,13 @@ body {
 .project {
 	font-size: 18px;
 	line-height: 2;
-	font-weight: bold;
+	font-weight: 700;
 }
 .project-affiliation {
 	color: #757575;
 	font-size: 16px;
 	line-height: 1.87;
-	font-weight: 400;
+	
 }
 .list {
 	list-style: none;

@@ -3,14 +3,15 @@ body {
 	color: #212121;
 	background-color: #fff;
 	letter-spacing: 0.06em;
+	
 }
 .logo {
 	text-decoration: none;
 	font-family: "Raleway";
 	color: #212121;
 	width: 145px;
-	/height: 31px; 
-	 font-size: 26px; 
+	height: 31px; 
+	font-size: 26px; 
 	line-height: 1.17;
 	font-weight: 700;
 	letter-spacing: 0.03em;
@@ -21,12 +22,14 @@ body {
 
 .navigation :hover,
 .navigation :focus {
-	/*font-size: 14px;*/
-	line-height: 1.14;
-	font-weight: 500;
+	
+	line-height: 1.14; 
+	font-weight: 500; 
 	letter-spacing: 0.02em;
 	color: #2196f3;
 	cursor: pointer;
+	letter-spacing: 0.02em;
+	
 	
 	
 }
@@ -73,11 +76,9 @@ body {
 }
 .footer {
 	background-color: #2f303a;
-	/* letter-spacing: 0.03em; */
+	/* letter-spacing: 0.3em; */
 }
-.footer-adress {
-	
-	line-height: 1.7;
+
 }
 .footer-adress-mobile {
 	color: rgba(255, 255, 255, 0.6);
@@ -98,9 +99,19 @@ body {
 	line-height: 1.87;
 	
 }
-  .list {  
-	  list-style: none;  
+  .list {
+	  list-style: none; 
 }
 .benefits {
 background-color:  #E5E5E5;
 color:  #E5E5E5;;
+
+.selector {
+	position: absolute
+	clip: rect (1px,1px,1px,1px);
+	padding:0;
+	border:0;
+	height:1px;
+	width:1px;
+	overflow:hidden;
+}

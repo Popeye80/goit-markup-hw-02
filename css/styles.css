@@ -42,6 +42,66 @@ body {
   color: #2196f3;
   cursor: pointer;
 }
+.section-title {
+  letter-spacing: 0.06em;
+}
+.title {
+  font-weight: 900;
+  line-height: 1.36em;
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.button-title {
+  font-weight: 700;
+  line-height: 1.87em;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.selector {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.benefits {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  list-style-type: none;
+}
+.benefits-p {
+  font-size: 14px;
+  line-height: 1.7em;
+  color: #757575;
+}
+.classes {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16em;
+  letter-spacing: 0.03em;
+}
+.classes-p {
+  list-style-type: none;
+}
+.name-command {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
+  list-style-type: none;
+}
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .footer {
   background-color: #2f303a;
   font-size: 14px;

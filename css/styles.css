@@ -18,13 +18,11 @@ body {
 .logo2 {
   color: #fff;
 }
-.a {
+.a-menu {
   text-decoration: none;
-  list-style-type: none;
 }
-.aa {
+.aa-menu {
   text-decoration: none;
-  list-style-type: none;
   color: #757575;
 }
 .menu-nav {
@@ -46,4 +44,19 @@ body {
 }
 .footer {
   background-color: #2f303a;
+  font-size: 14px;
+  line-height: 1.7em;
+}
+.a-footer {
+  list-style-type: none;
+}
+.aa-footer {
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.mail-footer {
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }

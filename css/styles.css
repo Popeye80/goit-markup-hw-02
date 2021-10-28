@@ -38,7 +38,11 @@ body {
   font-size: 14px;
 }
 .navigation :hover,
-.navigation :focus {
+.navigation :focus,
+.button-filter :hover,
+.button-filter :focus,
+.a-footer :hover,
+.a-footer :focus {
   color: #2196f3;
   cursor: pointer;
 }
@@ -56,6 +60,7 @@ body {
   line-height: 1.87em;
   background-color: #2196f3;
   color: #ffffff;
+  cursor: pointer;
 }
 .selector {
   position: absolute;
@@ -101,7 +106,29 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.button-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  letter-spacing: 0.03em;
+  list-style-type: none;
+  cursor: pointer;
+}
+.works {
+  list-style-type: none;
 
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+}
+.project-affiliation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 .footer {
   background-color: #2f303a;
   font-size: 14px;

@@ -1,7 +1,16 @@
+:root {
+  --primary-text-color: #212121;
+  --back-ground-color: #2196f3;
+  --secondary-text-color: #ffffff;
+  --hero-color: #2f303a;
+  --light-text-color: #757575;
+  --footer-background-color: rgba(255, 255, 255, 0.6);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 ul {
   list-style: none;
@@ -15,14 +24,14 @@ a {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--back-ground-color);
 }
 
 .logo-first {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .logo-second {
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 
 .visually-hidden {
@@ -40,23 +49,23 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .contacts .contacts-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--light-text-color);
 }
 .menu .menu-link.current {
-  color: #2196f3;
+  color: var(--back-ground-color);
 }
 .menu .menu-link:hover,
 .menu .menu-link:focus,
 .contacts .contacts-link:hover,
 .contacts .contacts-link:focus {
-  color: #2196f3;
+  color: var(--back-ground-color);
 }
 .footer {
   background-color: #2f303a;
@@ -65,31 +74,31 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 .footer-nav .footer-nav-links {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-background-color);
 }
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-color);
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 .hero-button {
   font-weight: 700;
   font-size: 44px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--back-ground-color);
+  color: var(--secondary-text-color);
 }
 .benefits-title {
   font-weight: 700;
@@ -123,33 +132,34 @@ a {
 }
 .command-name-text {
   font-size: 16px;
-  line-height: 1.19
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--light-text-color);
 }
+
 .filter-button {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-letter-spacing: 0.03em;
-cursor: pointer;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .works-title {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .filter-button:hover,
 .filter-button:focus {
-  background-color: #2196F3;
-  color: #ffffff;
+  background-color: var(--back-ground-color);
+  color: var(--secondary-text-color);
 }
 .works-text {
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--light-text-color);
 }

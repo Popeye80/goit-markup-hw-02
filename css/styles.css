@@ -3,66 +3,21 @@ body {
   color: #212121;
   background-color: #fff;
 }
+ul {
+  list-style: none;
+}
+
 .logo {
   font-family: Raleway;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
 }
-.logo1 {
-  color: #212121;
-}
-.logo2 {
-  color: #fff;
-}
-.a-menu {
-  text-decoration: none;
-}
-.aa-menu {
-  text-decoration: none;
-  color: #757575;
-}
-.menu-nav {
-  list-style-type: none;
-}
-.menu-nav-mail {
-  list-style-type: none;
-}
-.navigation {
-  line-height: 1.14;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  font-size: 14px;
-}
-.navigation :hover,
-.navigation :focus,
-.button-filter :hover,
-.button-filter :focus,
-.a-footer :hover,
-.a-footer :focus {
-  color: #2196f3;
-  cursor: pointer;
-}
-.section-title {
-  letter-spacing: 0.06em;
-}
-.title {
-  font-weight: 900;
-  line-height: 1.36em;
-  background-color: #2f303a;
-  color: #ffffff;
-}
-.button-title {
-  font-weight: 700;
-  line-height: 1.87em;
-  background-color: #2196f3;
-  color: #ffffff;
-  cursor: pointer;
-}
-.selector {
+
+.visually-hidden {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0;
@@ -70,80 +25,4 @@ body {
   height: 1px;
   width: 1px;
   overflow: hidden;
-}
-.benefits {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  list-style-type: none;
-}
-.benefits-p {
-  font-size: 14px;
-  line-height: 1.7em;
-  color: #757575;
-}
-.classes {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16em;
-  letter-spacing: 0.03em;
-}
-.classes-p {
-  list-style-type: none;
-}
-.name-command {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18em;
-  letter-spacing: 0.03em;
-  list-style-type: none;
-}
-.position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18em;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.button-filter {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62em;
-  letter-spacing: 0.03em;
-  list-style-type: none;
-  cursor: pointer;
-}
-.works {
-  list-style-type: none;
-
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2em;
-  letter-spacing: 0.06em;
-}
-.project-affiliation {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87em;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.footer {
-  background-color: #2f303a;
-  font-size: 14px;
-  line-height: 1.7em;
-}
-.a-footer {
-  list-style-type: none;
-}
-.aa-footer {
-  color: #ffffff;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-.mail-footer {
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }

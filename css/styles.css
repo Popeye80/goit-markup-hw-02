@@ -6,8 +6,10 @@ body {
 ul {
   list-style: none;
 }
-
-.logo {
+a {
+  text-decoration: none;
+}
+/* .logo { 
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -15,7 +17,7 @@ ul {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
-}
+ } */
 
 .visually-hidden {
   position: absolute;
@@ -25,4 +27,31 @@ ul {
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+/* меню и навигация */
+
+.menu .menu-link:hover,
+.menu .menu-link:focus,
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+  color: #2196f3;
+}
+.menu .menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.contacts .contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.menu .menu-link.current {
+  color: #2196F3;
+
+}
 }
